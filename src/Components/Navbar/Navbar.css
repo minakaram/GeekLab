@@ -85,11 +85,17 @@
   align-items: center;
   background-color: black !important;
 }
-.MuiPaper-root{
+.css-ekeie0,
+.MuiDialog-container {
+  align-items: flex-start !important;
+  padding-top: 2rem !important;
+}
+.MuiPaper-root {
   background-color: transparent !important;
   width: 100% !important;
 }
-.MuiDialog-root, .dialog-tag{
+.MuiDialog-root,
+.dialog-tag {
   background-color: rgba(0, 0, 0, 0.8);
 }
 .inner-search-component {
