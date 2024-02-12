@@ -6,10 +6,25 @@
   justify-content: flex-start;
   align-items: center;
   padding-top: 0.5rem;
+  position: relative;
 }
 .css-14pi00-MuiButtonBase-root-MuiMenuItem-root.Mui-selected{
   background-color: #202020 !important;
 }
 html{
   font-size: 100%;
+}
+.scrolling{
+  position: fixed;
+  right: 1rem;
+  bottom: 0px;
+  z-index: 1000;
+  background-color: #554DB7;
+  border-radius: 50%;
+  padding: 5px;
+  transform: translateY(-30px);
+  transition: all 0.3s;
+}
+.translate{
+  transform: translateY(50px);
 }
