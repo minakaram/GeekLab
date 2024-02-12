@@ -23,14 +23,14 @@
   font-family: "Inter", sans-serif;
   font-size: 1.2rem;
   transition: background-color 0.3s ease;
-
 }
-.split-container button:hover{
+.split-container button:hover {
   background-color: #3c3499;
 }
 @media (width<768px) {
   .split-container {
     width: 95%;
+    margin-bottom: 1.5rem;
   }
 }
 @media (width<850px) {
@@ -42,7 +42,7 @@
     height: 60px;
   }
 }
-@media(width<550px){
+@media (width<550px) {
   .split-container button {
     font-size: 80%;
     height: 45px;
