@@ -90,6 +90,9 @@
   align-items: flex-start !important;
   padding-top: 2rem !important;
 }
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  background-color: #202020 !important;
+}
 .MuiPaper-root {
   background-color: transparent !important;
   width: 100% !important;

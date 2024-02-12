@@ -49,6 +49,9 @@
   color: #6b6b6b;
   font-size: 1rem;
 }
+.css-107r9vf{
+  background-color: #202020;
+}
 @media (width<1000px) {
   .industry-section span {
     font-size: 70%;
@@ -58,5 +61,10 @@
 @media (768px < width < 1000px) {
   .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
     max-width: 150px !important;
+  }
+}
+@media (768px < width) {
+  .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+    max-width: 250px !important;
   }
 }
