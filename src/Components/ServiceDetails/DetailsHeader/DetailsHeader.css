@@ -1,0 +1,55 @@
+.detailsHeader {
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(70deg, #667eea, #764ba2);
+  background-image: url("../Assets/Bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid gray;
+  padding: 0.3rem 0.6rem 0.2rem 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.detailsHeader .service-header-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detailsHeader .headerShape {
+  height: 50%;
+}
+.detailsHeader .details-spliter {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 50%;
+}
+.tesla {
+  justify-content: flex-start !important;
+}
+@media (319px < width< 768px) {
+  .detailsHeader .service-header-item {
+    width: 50%;
+    justify-content: center;
+  }
+  .del {
+    display: none;
+  }
+  .tesla,
+  .risk {
+    justify-content: flex-start !important;
+  }
+  .detailsHeader small {
+    font-size: 70%;
+  }
+  .detailsHeader .service-header-item {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,16 @@
+.serviceDetails {
+  width: 67%;
+  padding: 1rem 0.5rem;
+  border-radius: 10px;
+  background-color: #202020;
+  height: 100%;
+}
+.service-header-item {
+  position: relative;
+}
+
+@media(width<768px){
+    .serviceDetails{
+        width: 95% !important;
+    }
+}

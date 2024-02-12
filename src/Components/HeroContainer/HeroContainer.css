@@ -1,0 +1,18 @@
+.hero-container {
+  width: 96%;
+  margin: auto;
+  margin: 10px 0 0 0;
+  margin-bottom: 0px;
+  background-color: #181818;
+  border-radius: 10px;
+  padding: 2rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+@media(width<768px){
+    .hero-container{
+        justify-content: center;
+    }
+}

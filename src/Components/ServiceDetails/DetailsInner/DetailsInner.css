@@ -1,0 +1,16 @@
+.detailsInner {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-bottom: 4px;
+  background-color: #181818;
+  padding: 0.3rem 1rem;
+  color: #fff;
+  min-height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.detailsInner p{
+    margin: 0;
+}

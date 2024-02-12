@@ -1,0 +1,62 @@
+.industry-section .css-65l5ed-MuiFormControl-root {
+  margin: 0px !important;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 5px !important;
+}
+.industry-section .MuiInputBase-root {
+  border: none !important;
+  border-color: #202020 !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+}
+.industry-section .MuiInputBase-root:hover {
+  border: none !important;
+}
+.industry-section .MuiFormControl-root {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.industry-section {
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+.industry-section p {
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.industry-logo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+.css-11mqivd-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+  background-color: white !important;
+  color: black !important;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+  color: gray !important;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+  color: white !important;
+}
+.industry-section span {
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+  color: #6b6b6b;
+  font-size: 1rem;
+}
+@media (width<1000px) {
+  .industry-section span {
+    font-size: 70%;
+  }
+}
+
+@media (768px < width < 1000px) {
+  .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+    max-width: 150px !important;
+  }
+}
