@@ -163,6 +163,7 @@
   }
   .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
     width: 100% !important;
+    background-color: rgba(0, 0, 0, 0.9) !important;
   }
   .inner-search-component {
     width: 100%;
