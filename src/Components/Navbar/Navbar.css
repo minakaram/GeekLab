@@ -134,7 +134,10 @@
   font-weight: 600;
 }
 .navbar-component .css-yiavyu-MuiBackdrop-root-MuiDialog-backdrop {
+}
+.MuiDialog-root, .dialog-tag, .MuiModal-root ,.css-126xj0f{
   background-color: rgba(0, 0, 0, 0.9) !important;
+
 }
 @media (width<768px) {
   .search-container {
