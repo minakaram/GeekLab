@@ -87,6 +87,7 @@
 }
 .MuiPaper-root{
   background-color: transparent !important;
+  width: 100% !important;
 }
 .MuiDialog-root, .dialog-tag{
   background-color: rgba(0, 0, 0, 0.8);
