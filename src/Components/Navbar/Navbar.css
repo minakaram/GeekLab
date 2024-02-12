@@ -93,12 +93,12 @@
 .css-6hp17o-MuiList-root-MuiMenu-list {
   background-color: #202020 !important;
 }
-.MuiPaper-root {
+.navbar-component .MuiPaper-root {
   background-color: transparent !important;
   width: 100% !important;
 }
-.MuiDialog-root,
-.dialog-tag {
+.navbar-component .MuiDialog-root,
+.navbar-component .dialog-tag {
   background-color: rgba(0, 0, 0, 0.8);
 }
 .inner-search-component {
@@ -133,7 +133,7 @@
   border-radius: 15px;
   font-weight: 600;
 }
-.css-yiavyu-MuiBackdrop-root-MuiDialog-backdrop {
+.navbar-component .css-yiavyu-MuiBackdrop-root-MuiDialog-backdrop {
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
 @media (width<768px) {
