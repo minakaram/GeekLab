@@ -135,7 +135,7 @@
 }
 .navbar-component .css-yiavyu-MuiBackdrop-root-MuiDialog-backdrop {
 }
-.MuiDialog-root, .dialog-tag, .MuiModal-root {
+.MuiDialog-root, .dialog-tag {
   background-color: rgba(0, 0, 0, 0.9) !important;
 
 }
