@@ -85,8 +85,11 @@
   align-items: center;
   background-color: black !important;
 }
+.MuiPaper-root{
+  background-color: transparent !important;
+}
 .MuiDialog-root, .dialog-tag{
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .inner-search-component {
   position: relative;
