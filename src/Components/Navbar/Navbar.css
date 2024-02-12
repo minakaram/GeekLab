@@ -85,6 +85,10 @@
   align-items: center;
   background-color: black !important;
 }
+.MuiDialog-paper, .MuiDialog-paperScrollPaper{
+  width: 100% !important;
+  background-color: transparent !important;
+}
 .css-ekeie0,
 .MuiDialog-container {
   align-items: flex-start !important;
