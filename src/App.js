@@ -28,7 +28,7 @@ function App() {
     });
   };
 
-  const shouldTranslate = scrollPosition > 150;
+  const shouldTranslate = scrollPosition > 200;
 
   return (
     <div className="App">

@@ -20,9 +20,7 @@ const MenuProps = {
   },
 };
 
-// const names = ["Health Care", "Beauty Care", "Body Care", "Gym"];
-
-const DropDown = ({options,message,header}) => {
+const DropDown = ({ options, message, header }) => {
   const [personName, setPersonName] = React.useState([options[0]]); // Set initial state to contain the first value
 
   const handleChange = (event) => {
@@ -33,6 +31,10 @@ const DropDown = ({options,message,header}) => {
       // On autofill we get a stringified value.
       typeof value === "string" ? value.split(",") : value
     );
+  };
+
+  const handleSelectClick = (event) => {
+    event.stopPropagation(); // Stop event propagation
   };
 
   return (
@@ -78,9 +80,14 @@ const DropDown = ({options,message,header}) => {
           renderValue={(selected) => selected.join(", ")}
           MenuProps={MenuProps}
           IconComponent={ExpandMoreIcon}
+          onClick={handleSelectClick} // Add event listener to stop event propagation
         >
           {options.map((option) => (
-            <MenuItem key={option} value={option} sx={{ backgroundColor: "#202020", color: "#fff",height:"40px",width:"100%" }}>
+            <MenuItem
+              key={option}
+              value={option}
+              sx={{ backgroundColor: "#202020", color: "#fff", height: "40px", width: "100%" }}
+            >
               <Checkbox checked={personName.indexOf(option) > -1} />
               <ListItemText primary={option} />
             </MenuItem>
